@@ -47,7 +47,7 @@ section{
     padding:2rem 7%;
 }
 .btn{
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
@@ -228,6 +228,41 @@ letter-spacing: .2rem;
     padding:1rem 0;
 }
 /* home section end */
+/* filter form section start */
+.form-container form{
+    background-color: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+.form-container form .inputBox{
+    flex: 1 1 23rem;
+}
+.form-container form .inputBox{
+    flex: 1 1 23rem;
+}
+.form-container form .inputBox label{
+    font-size: 1.7rem;
+    color: var(--text-color-2);
+}
+.form-container form .inputBox input{
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+    background: var(--bg-color-2);
+    border-radius: .5rem;
+    margin: .5rem 0;
+    text-transform: none;
+    width: 100%;
+    padding: 1rem;
+}
+.form-container form .btn{
+    flex: 1 1 23rem;
+}
+/* filter form section end */
 /* media queries start */
 @media(max-width:991px){
     html{

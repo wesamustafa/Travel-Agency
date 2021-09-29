@@ -470,6 +470,37 @@ letter-spacing: .2rem;
     background: var(--orange);
 }
 /* review section end */
+/* contact section start */
+.contact form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact form .inputBox input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--text-color-1);
+    margin: .7rem 0;
+    background: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
+    text-transform: none;
+    border-radius: .5rem;
+}
+.contact form textarea{
+    height: 20rem;
+    resize: none;
+}
+.contact form .inputBox input{
+    width: 49%;
+}
+/* contact section end */
 /* media queries start */
 @media(max-width:991px){
     html{
@@ -512,6 +543,9 @@ letter-spacing: .2rem;
     }
     .header{
         padding: 1.5rem 2rem;
+    }
+    .contact form .inputBox input{
+        width: 100%;
     }
 
 }

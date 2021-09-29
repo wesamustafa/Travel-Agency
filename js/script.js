@@ -32,3 +32,17 @@ themeBtn.onclick = () => {
     }
 }
 // header section end
+// review section start
+var swiper = new Swiper(".review-slider", {
+    loop: true,
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 5500,
+        disableOnInteraction: false
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+// review section end

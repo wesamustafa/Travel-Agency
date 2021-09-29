@@ -5,3 +5,4 @@
 ##### ✔ responsive filter search form.
 ##### ✔ responsive packages section using css grid.
 ##### ✔ responsive services section using css grid.
+##### ✔ responsive pricing table section using css grid.

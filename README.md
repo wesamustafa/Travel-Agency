@@ -4,3 +4,4 @@
 ##### ✔ responsive home section using flexbox.
 ##### ✔ responsive filter search form.
 ##### ✔ responsive packages section using css grid.
+##### ✔ responsive services section using css grid.

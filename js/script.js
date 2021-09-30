@@ -46,3 +46,8 @@ var swiper = new Swiper(".review-slider", {
     },
 });
 // review section end
+// aos animate on scroll 
+AOS.init({
+    duration: 800,
+    delay: 400
+});

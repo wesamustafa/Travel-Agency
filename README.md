@@ -9,3 +9,4 @@
 ##### ✔ responsive review slider section with touch slider using swiper.js (https://swiperjs.com/).
 ##### ✔ responsive contact section.
 ##### ✔ responsive blogs section using css grid.
+##### ✔ responsive footer section using css grid and use aos animate on scroll (https://michalsnik.github.io/aos/).

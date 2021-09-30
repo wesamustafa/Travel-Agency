@@ -8,3 +8,4 @@
 ##### ✔ responsive pricing table section using css grid.
 ##### ✔ responsive review slider section with touch slider using swiper.js (https://swiperjs.com/).
 ##### ✔ responsive contact section.
+##### ✔ responsive blogs section using css grid.
